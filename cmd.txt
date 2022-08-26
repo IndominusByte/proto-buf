@@ -1,0 +1,6 @@
+// generate proto
+protoc --go_out=. *.proto
+// run golang
+go run *.go
+// check file size on linux
+stat person.json
